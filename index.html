@@ -5,63 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata</title>
-    <style>
-        .nav ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-        }
-        
-        .nav li {
-          float: left;
-        }
-        
-        .nav li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        .nav li a:hover {
-          background-color: #111;
-        }
-    </style>
-</head>
-<body>
-    <div class="nav">
-        <ul>
-            <li><a href="index.html">Biodata</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-        </ul>
-        </div> 
-</body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="index.html">Biodata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="portofolio.html">Portofolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <!-- hero -->
+  <div id="hero" class="container d-flex flex-column align-items-center justify-content-center mb-5">
+    <img src="./foto.jpeg" class="image-hero rounded-circle" alt="">
+    <h1 class="title fw-bold">Syafirra Novrainnisa</h1>
+    <p class="subtitle">Bisnis</p>
+    <i class="bi bi-arrow-down"></i>
+  </div>
+
+  <!-- about me -->
+  <div class="container mb-5">
+      <h2 class="text-center mb-3">About me</h2>
+        <div class="row">
+          <div class="col-6">
+            <img src="./asets/image/photo_6233513073407276685_x.jpg" class="shadow rounded w-100" alt="">
+          </div>
+          <div class="col-6">
+            <p class="text-about">Hai teman-teman, Sebelumnya izinkan saya untuk memperkenalkan diri saya. Nama saya Syafirra Novrainnisa, kalian bisa memanggil saya Syafirra, umur saya 19 tahun, saya kuliah di UPN Veteran Jakarta prodi Ilmu Politik, saat ini saya memasuki semester 5 dan sedang mengikuti program Magang Studi Independent Bersertifikat (MSIB). Pendidikan saya SDN Cibuluh 1 Bogor, SMPN 5 Bogor, SMAN 2 Bogor. Hobi saya membaca novel dan juga jalan-jalan, saya tinggal di Bogor. Demikian yang bisa saya sampaikan Terima kasih atas perhatiannya.</p>
+          </div>    
+      </div>
+  </div>
+
+  <!-- Skill -->
+  <div class="container mb-5">
+    <h2 class="text-center mb-3">My Skill</h2>
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+                <img src="./asets/image/ms office.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MS.office </h5>
+                    <p class="card-text">Sering menggunakan word, power point, dan juga excel</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./asets/image/canva.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Canva</h5>
+                    <p class="card-text">Sedang belajar lebih banyak menggunakan Canva</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./asets/image/communication.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Communication</h5>
+                    <p class="card-text">dapat berkomunikasi dengan baik dan sopan.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./asets/image/problem solving.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Problem Solving</h5>
+                    <p class="card-text">Mampu menyelesaikan masalah dengan cukup baik</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+              </div>
+          </div>         
+      </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/syafirra.n"><i class="bi bi-instagram"></i></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://github.com/Syafirran/web-basic-seal"><i class="bi bi-github"></i></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>   
+
 </html>
-<HTML>
-    <body>
-        <H1> Syafirra Novrainnisa </H1>
-        <img src="foto.jpeg" width="150"><br>
-        <H2> Tentang Saya </H2>
-        <p> Saya Syafirra Novrainnisa mahasiswi ilmu politik di UPN Veteran Jakarta dan memiliki banyak pengalaman di kampus. Saya merupakan orang yang cepat belajar, komunikatif, dan pantang menyerah. Saya mampu bekerja dalam tim maupun individu.</p>
-        <H2> Keahlian Saya </H2>
-        <ol>
-            <li> Ms. Office </li>
-            <li> Canva </li>
-            <li> Negosiasi </li>
-            <li> Problem Solving </li>
-        </ol>
-        <H2> Pendidikan Saya </H2>
-        <ul> 
-            <li> 2007 - 2014 SDN Cibuluh 1 </li>
-            <li> 2014 - 2017 SMPN 5 Bogor </li>
-            <li> 2017 - 2020 SMAN 2 Bogor </li>
-            <li> 2020 - sekarang UPN Veteran Jakarta </li>
-        </ul>
-        <H2> Kontak Saya </H2>
-        <p> <a href="https://www.instagram.com/syafirra.n"> Instagram </a> 
-        <a href="https://www.linkedin.com/in/syafirra-novrainnisa-9b5ba4244/" > linkedin </a> </p>
-    </body>
-</HTML>
